@@ -26,7 +26,7 @@ To replicate this system using physical sensors, you will need:
  
 
 
- ### ⚙️ Optional Hardware Upgrades
+⚙️ Optional Hardware Upgrades
  
  
 
@@ -47,7 +47,6 @@ To replicate this system using physical sensors, you will need:
 
 > ⚠️ *Always check your specific component’s datasheet — some modules include voltage regulators, others don't. ESP32 especially can be damaged if directly fed 5V to GPIO pins.*
 
-*Note:* You can also simulate data or use pre-recorded datasets for testing without hardware.
 
 ## 📁 Project Structure
 
