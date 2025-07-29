@@ -19,6 +19,8 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 
 To replicate this system using physical sensors, you will need:
 
+       Component                      Function                             Operating Voltage 
+
 
  **DHT11 / DHT22** - For measuring temperature and humidity                          3.3V - 5V
  
@@ -30,7 +32,7 @@ To replicate this system using physical sensors, you will need:
 
 ⚙️ Optional Hardware Upgrades
  
- 
+ Component                       Function                          Operating Voltage  
 
 **GPS Module (NEO-6M)**  - Location tracking(latitude, longitude)     3.3V – 5V         
 **Rain Sensor**          - Detects rain                               3.3V – 5V         
