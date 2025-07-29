@@ -40,6 +40,7 @@ To replicate this system using physical sensors, you will need:
 **LoRa Module (SX1278)** - Long-range wireless communication          3.3V              
 **GSM Module (SIM800L)** - Sends SMS alerts                           3.7V – 4.2V       
 **Buzzer / LED**         - Local sound/light alerts                   3.3V – 5V
+
 **Arduino/ Raspberry Pi**- single-board computer to read sensors      3.3V - 5V
 
 **Flame Sensor**  - Detects infrared light from fire                  3.3V - 5V
