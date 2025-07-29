@@ -70,6 +70,7 @@ forest-fire-detection-esp8266/
 │
 ├── .vscode/                          # If using VS Code + PlatformIO
 │   └── settings.json
+└── 
 
 
 
