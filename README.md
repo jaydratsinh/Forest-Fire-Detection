@@ -51,7 +51,7 @@ To replicate this system using physical sensors, you will need:
 
 
 ## 📁 Project Structure
-
+'''
 forest-fire-detection-esp8266/
 ├── src/
 │   ├── main.ino                      # Main program with all logic 
