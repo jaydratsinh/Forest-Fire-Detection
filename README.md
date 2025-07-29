@@ -21,7 +21,9 @@ To replicate this system using physical sensors, you will need:
 
 
  **DHT11 / DHT22** - For measuring temperature and humidity                          3.3V - 5V
+ 
  **MQ-2 / MQ-135** - Gas sensor to detect smoke, methane, CO, etc.                   3.3V - 5V
+ 
  **NodeMCU**  - Microcontroller or single-board computer to read sensors                3.3V
  
 
