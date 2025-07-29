@@ -52,27 +52,31 @@ To replicate this system using physical sensors, you will need:
 
 ## 📁 Project Structure
 '''
+## 📁 Project Structure
+
+```plaintext
 forest-fire-detection-esp8266/
 ├── src/
-│   ├── main.ino                      # Main program with all logic 
-│   ├── SensorManager.h               # Optional: Abstraction for DHT, MQ sensor
-│   ├── SensorManager.cpp             # Optional: Sensor reading & processing
-│   ├── WebServerHandler.h            # Optional: Web page + JSON response handlers
-│   ├── WebServerHandler.cpp          # Optional: Contains handleRoot() and handleData()
+│   ├── main.ino                      # Main program with all logic
+│   ├── SensorManager.h               # Abstraction for DHT, MQ sensor
+│   ├── SensorManager.cpp
+│   ├── WebServerHandler.h           # Web page + JSON response handlers
+│   ├── WebServerHandler.cpp
 │
-├── data/                             # For SPIFFS (if needed later for HTML/CSS/JS)
-│   └── index.html                    # Optional: Separate HTML (for SPIFFS hosting)
+├── data/                             # For SPIFFS (HTML/CSS/JS)
+│   └── index.html
 │
-├── include/                          # Additional headers 
-│
-├── lib/                              # Third-party or custom libraries
-│
-├── assets/                           # (Optional) Store images, diagrams, mockups
-│   └── wiring_diagram.png            # Wiring diagram or schematic
-│
-├── .vscode/                          # If using VS Code + PlatformIO
+├── include/                          # Header files (if any)
+├── lib/                              # Libraries (custom/third-party)
+├── assets/
+│   └── wiring_diagram.png            # Circuit diagram
+├── .vscode/
 │   └── settings.json
-└── 
+├── platformio.ini                    # PlatformIO config
+├── README.md
+├── LICENSE
+└── .gitignore
+
 
 
 
