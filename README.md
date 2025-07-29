@@ -8,7 +8,7 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 - Ardiuno IDE
 - Jupyter Lab
 - C++(Used in Project)/Python(Based on Your Needs)
-- OpenCV / TensorFlow /  
+- OpenCV / TensorFlow 
 - Sensor data
 - Flask(Optional) 
 
