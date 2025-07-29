@@ -5,7 +5,7 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 
 ## 🔧 Technologies Used
 
-- Python
+- C++(Used in Project)/Python(Based on Your Needs)
 - OpenCV / TensorFlow 
 - Sensor data
 - Flask
