@@ -6,12 +6,8 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 ## 🔧 Technologies Used
 
 - Ardiuno IDE
-- Jupyter Lab
-- C++(Used in Project)/Python(Based on Your Needs)
-- OpenCV / TensorFlow 
+- C++ 
 - Sensor data
-- Flask(Optional) 
-
 
 
 
@@ -54,8 +50,28 @@ To replicate this system using physical sensors, you will need:
 
 ## 📁 Project Structure
 
-- `data/`: Dataset used for training/testing
-- `models/`: Trained models
-- `fire_detection.py`: Main script
-- `utils.py`: Helper functions
-- `requirements.txt`: Python dependencies / 
+forest-fire-detection-esp8266/
+├── src/
+│   ├── main.ino                      # Main program with all logic 
+│   ├── SensorManager.h               # Optional: Abstraction for DHT, MQ sensor
+│   ├── SensorManager.cpp             # Optional: Sensor reading & processing
+│   ├── WebServerHandler.h            # Optional: Web page + JSON response handlers
+│   ├── WebServerHandler.cpp          # Optional: Contains handleRoot() and handleData()
+│
+├── data/                             # For SPIFFS (if needed later for HTML/CSS/JS)
+│   └── index.html                    # Optional: Separate HTML (for SPIFFS hosting)
+│
+├── include/                          # Additional headers 
+│
+├── lib/                              # Third-party or custom libraries
+│
+├── assets/                           # (Optional) Store images, diagrams, mockups
+│   └── wiring_diagram.png            # Wiring diagram or schematic
+│
+├── .vscode/                          # If using VS Code + PlatformIO
+│   └── settings.json
+
+
+
+
+ 
