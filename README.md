@@ -51,7 +51,7 @@ To replicate this system using physical sensors, you will need:
 > ⚠️ *Always check your specific component’s datasheet — some modules include voltage regulators, others don't. ESP32 especially can be damaged if directly fed 5V to GPIO pins.*
 
 
-## 📁 Project Structure
+
 '''
 ## 📁 Project Structure
 
