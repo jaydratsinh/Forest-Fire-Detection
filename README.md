@@ -35,7 +35,7 @@ To replicate this system using physical sensors, you will need:
 **Soil Moisture Sensor** - Detects soil dryness                       3.3V – 5V         
 **UV Sensor (e.g., ML8511)** - Detects UV light from flame            3.3V – 5V         
 **Li-ion Battery (18650)** - Power supply (portable)                  3.7V (nominal)    
-**Battery Management System (BMS)** - Protects batteries                   —                 
+**Battery Management System (BMS)** - Protects batteries                                   
 **Solar Panel (Mini 5V)** - Rechargeable power                        5V output        
 **LoRa Module (SX1278)** - Long-range wireless communication          3.3V              
 **GSM Module (SIM800L)** - Sends SMS alerts                           3.7V – 4.2V       
