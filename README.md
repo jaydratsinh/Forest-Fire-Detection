@@ -5,10 +5,12 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 
 ## 🔧 Technologies Used
 
+- Ardiuno IDE
+- Jupyter Lab
 - C++(Used in Project)/Python(Based on Your Needs)
-- OpenCV / TensorFlow 
+- OpenCV / TensorFlow /  
 - Sensor data
-- Flask
+- Flask(Optional) 
 
 
 
@@ -17,7 +19,6 @@ This project is aimed at detecting forest fires using [insert technique: ML/CV/I
 
 To replicate this system using physical sensors, you will need:
 
-     Sensor             |             Description                        |       Operating Voltage 
 
  **DHT11 / DHT22** - For measuring temperature and humidity                          3.3V - 5V
  **MQ-2 / MQ-135** - Gas sensor to detect smoke, methane, CO, etc.                   3.3V - 5V
@@ -27,8 +28,7 @@ To replicate this system using physical sensors, you will need:
 
  ### ⚙️ Optional Hardware Upgrades
  
-
-   Component                   Function                               Operating Voltage 
+ 
 
 **GPS Module (NEO-6M)**  - Location tracking(latitude, longitude)     3.3V – 5V         
 **Rain Sensor**          - Detects rain                               3.3V – 5V         
@@ -55,4 +55,4 @@ To replicate this system using physical sensors, you will need:
 - `models/`: Trained models
 - `fire_detection.py`: Main script
 - `utils.py`: Helper functions
-- `requirements.txt`: Python dependencies
+- `requirements.txt`: Python dependencies / 
